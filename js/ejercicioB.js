@@ -1,4 +1,5 @@
 console.error('EJERCICIO B')
+/* ------------------------ */
 var numeroDeGatos 
 var cantidadDePasos 
 /* Estas son las dos variables con valores numericos libres, a las cuales les pongo un prompt para darles un valor */
