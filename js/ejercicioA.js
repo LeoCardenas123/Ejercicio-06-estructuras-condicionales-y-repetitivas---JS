@@ -2,8 +2,8 @@ console.error('EJERCICIO A')
 
 var cantidadDeGatos 
 
-var cantidadIngresada =  parseFloat(prompt('Cuantos gatos quieres representar?'))
-
+var cantidadIngresada = 10 /*  parseFloat(prompt('Cuantos gatos quieres representar?'))
+ */
 var emojiDeGato
 
 var textoSalida 
@@ -31,5 +31,7 @@ for(cantidadDeGatos = 1; cantidadDeGatos <= cantidadIngresada; cantidadDeGatos++
 
     console.log(textoSalida)
 } 
+
+
 
 
