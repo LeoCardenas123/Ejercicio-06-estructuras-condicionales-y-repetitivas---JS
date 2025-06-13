@@ -1,16 +1,27 @@
 console.error('EJERCICIO B')
 var numeroDeGatos 
-var emojiGato = ' 🐈'
-var cantidadDePasos = 5
-var emojiPasos = ' 🐾'
-var resultado
-var cantidadDeFilas = 5
+var cantidadDePasos 
+/* Estas son las dos variables con valores numericos libres, a las cuales les pongo un prompt para darles un valor */
 
-numeroDeGatos = cantidadDeFilas
+var emojiGato = ' 🐈';
+var emojiPasos = ' 🐾';
 
-for(numeroDeGatos = 1; numeroDeGatos <= cantidadDeFilas; numeroDeGatos++){
+var resultado;
 
-    resultado = 'Gato #' + numeroDeGatos +':' + emojiGato + emojiPasos 
+var cantidadDeFilasGatos = 10 //prompt('Cuantas filas de gatos quieres?');
+var cantidadDeColumnasPasos = 10 //prompt('Cuantos pasos quieres por fila?');
+    cantidadDePasos = cantidadDeColumnasPasos
+/* ------------------------------------------ */
+
+numeroDeGatos = cantidadDeFilasGatos
+
+for(numeroDeGatos = 1; numeroDeGatos <= cantidadDeFilasGatos; numeroDeGatos++){
+
+
+    emojiPasosConsola = emojiPasos.repeat(cantidadDePasos)
+
+    resultado = 'Gato #' + numeroDeGatos +':' + emojiGato + emojiPasosConsola 
     console.log(resultado)
 }
+
 
