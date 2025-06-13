@@ -1,9 +1,9 @@
 console.error('EJERCICIO A')
 /* ------------------------ */
 var cantidadDeGatos 
+/* esta es la variable ocn valor numerico libre */
 
-var cantidadIngresada = 10 /*  parseFloat(prompt('Cuantos gatos quieres representar?'))
-/* Estas son las dos variables con valores numericos libres, a las cuales les pongo un prompt para darles un valor */
+var cantidadIngresada = 7
  
 var emojiDeGato
 

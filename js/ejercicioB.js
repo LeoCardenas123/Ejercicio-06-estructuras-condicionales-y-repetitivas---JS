@@ -9,8 +9,8 @@ var emojiPasos = ' 🐾';
 
 var resultado;
 
-var cantidadDeFilasGatos = 10 //prompt('Cuantas filas de gatos quieres?');
-var cantidadDeColumnasPasos = 10 //prompt('Cuantos pasos quieres por fila?');
+var cantidadDeFilasGatos = 8;
+var cantidadDeColumnasPasos = 6;
     cantidadDePasos = cantidadDeColumnasPasos
 /* ------------------------------------------ */
 
@@ -25,4 +25,4 @@ for(numeroDeGatos = 1; numeroDeGatos <= cantidadDeFilasGatos; numeroDeGatos++){
     console.log(resultado)
 }
 
-
+/* Con esta función for, determino la cantidad de filas de gatos y la cantidad de columnas de pasos que se van a imprimir */
