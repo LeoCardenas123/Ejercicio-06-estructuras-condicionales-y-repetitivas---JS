@@ -2,7 +2,7 @@ console.error('EJERCICIO A')
 
 var cantidadDeGatos 
 
-var cantidadIngresada = 10 /* parseFloat(prompt('Cuantos gatos quieres?'))  */
+var cantidadIngresada =  parseFloat(prompt('Cuantos gatos quieres representar?'))
 
 var emojiDeGato
 
@@ -17,19 +17,19 @@ var textoSalida
 for(cantidadDeGatos = 1; cantidadDeGatos <= cantidadIngresada; cantidadDeGatos++){
 
     if(cantidadDeGatos % 1.5 == 1){
-        var emojiDeGato = 1111
+        var emojiDeGato = '😺'
     }
     else if(cantidadDeGatos % 3 == 0){
-        emojiDeGato = 00 
+        emojiDeGato = '😹' 
     }
     else{
-        emojiDeGato = 55
+        emojiDeGato = '😸'
     }
+//Este conjunto de condicionales determinan la linea en la que se va a imprimir cada emoji de gato
 
     textoSalida = 'Gato #' + cantidadDeGatos + ' ' + emojiDeGato
 
     console.log(textoSalida)
-    
 } 
 
 
